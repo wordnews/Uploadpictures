@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 
 class DemoAsset extends AssetBundle
 {
-    public $sourcePath = '@common/listen/widgets/Demo/assets';
+    public $sourcePath = '@common/listen/widgets/Uploadpictures/assets';
 
     public $css = [
     ];

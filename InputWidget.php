@@ -25,14 +25,14 @@ class InputWidget extends \yii\widgets\InputWidget
     public function run()
     {
         // 获取字段的值
-//        $attributeValue = Html::getAttributeValue($this->model, $this->attribute);
-        $attributeValue = [
+        $attributeValue = Html::getAttributeValue($this->model, $this->attribute);
+        /*$attributeValue = [
             'image/image.png',
             'image/image.png',
             'image/image.png',
             'image/image.png',
             'image/image.png',
-        ];
+        ];*/
 
         return $this->render('index', [
             'title' => $this->title,
